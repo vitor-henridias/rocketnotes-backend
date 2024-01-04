@@ -7,8 +7,3 @@ const sessionsRoutes = Router();
 sessionsRoutes.post("/", sessionsController.create);
 
 module.exports = sessionsRoutes;
-
-
-
-
-
